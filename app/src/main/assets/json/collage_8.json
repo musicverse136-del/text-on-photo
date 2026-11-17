@@ -1,0 +1,1928 @@
+[
+
+  {
+    "type": "MaskLayout.Info",
+    "areaInfo": [
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 0.0
+          },
+          {
+            "x": 1.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 1.0,
+            "y": 0.0
+          },
+          {
+            "x": 1.0,
+            "y": 0.5
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 1.0,
+            "y": 0.5
+          },
+          {
+            "x": 1.0,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 1.0,
+            "y": 1.0
+          },
+          {
+            "x": 0.5,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 0.5,
+            "y": 1.0
+          },
+          {
+            "x": 0.0,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.5
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 0.0,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 0.0,
+            "y": 0.5
+          }
+        ]
+      }
+    ],
+    "id": "M-8-0",
+    "isReverserTouchEvent": true
+  },
+  {
+    "type": "MaskLayout.Info",
+    "areaInfo": [
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.13,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.2
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 0.0
+          },
+          {
+            "x": 0.87,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.2
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.13,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.2
+          },
+          {
+            "x": 0.5,
+            "y": 0.6
+          },
+          {
+            "x": 0.0,
+            "y": 0.3
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.87,
+            "y": 0.0
+          },
+          {
+            "x": 1.0,
+            "y": 0.0
+          },
+          {
+            "x": 1.0,
+            "y": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 0.6
+          },
+          {
+            "x": 0.5,
+            "y": 0.2
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 0.6
+          },
+          {
+            "x": 0.5,
+            "y": 1.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.7
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 0.6
+          },
+          {
+            "x": 1.0,
+            "y": 0.3
+          },
+          {
+            "x": 1.0,
+            "y": 0.7
+          },
+          {
+            "x": 0.5,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.7
+          },
+          {
+            "x": 0.5,
+            "y": 1.0
+          },
+          {
+            "x": 0.0,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 1.0
+          },
+          {
+            "x": 1.0,
+            "y": 0.7
+          },
+          {
+            "x": 1.0,
+            "y": 1.0
+          }
+        ]
+      }
+    ],
+    "id": "M-8-1",
+    "isReverserTouchEvent": true
+  },
+  {
+    "type": "MaskLayout.Info",
+    "areaInfo": [
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.3,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 0.0,
+            "y": 0.3
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.3,
+            "y": 0.0
+          },
+          {
+            "x": 0.7,
+            "y": 0.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.7,
+            "y": 0.0
+          },
+          {
+            "x": 1.0,
+            "y": 0.0
+          },
+          {
+            "x": 1.0,
+            "y": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 1.0,
+            "y": 0.3
+          },
+          {
+            "x": 1.0,
+            "y": 0.7
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 1.0,
+            "y": 0.7
+          },
+          {
+            "x": 1.0,
+            "y": 1.0
+          },
+          {
+            "x": 0.7,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.3,
+            "y": 1.0
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 0.7,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.7
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 0.3,
+            "y": 1.0
+          },
+          {
+            "x": 0.0,
+            "y": 1.0
+          }
+        ]
+      },
+      {
+        "maskPath": "",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.3
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 0.0,
+            "y": 0.7
+          }
+        ]
+      }
+    ],
+    "id": "M-8-2",
+    "isReverserTouchEvent": true
+  },
+  {
+    "type": "MaskLayout.Info",
+    "areaInfo": [
+      {
+        "maskPath": "eight/1_1.svg",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.016
+          },
+          {
+            "x": 0.354,
+            "y": 0.016
+          },
+          {
+            "x": 0.354,
+            "y": 0.274
+          },
+          {
+            "x": 0.0,
+            "y": 0.274
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/1_2.svg",
+        "points": [
+          {
+            "x": 0.314,
+            "y": 0.016
+          },
+          {
+            "x": 0.686,
+            "y": 0.016
+          },
+          {
+            "x": 0.686,
+            "y": 0.274
+          },
+          {
+            "x": 0.314,
+            "y": 0.274
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/1_3.svg",
+        "points": [
+          {
+            "x": 0.645,
+            "y": 0.016
+          },
+          {
+            "x": 1.0,
+            "y": 0.016
+          },
+          {
+            "x": 1.0,
+            "y": 0.274
+          },
+          {
+            "x": 0.645,
+            "y": 0.274
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/1_4.svg",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.301
+          },
+          {
+            "x": 0.539,
+            "y": 0.301
+          },
+          {
+            "x": 0.539,
+            "y": 0.701
+          },
+          {
+            "x": 0.0,
+            "y": 0.701
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/1_5.svg",
+        "points": [
+          {
+            "x": 0.46,
+            "y": 0.301
+          },
+          {
+            "x": 1.0,
+            "y": 0.301
+          },
+          {
+            "x": 1.0,
+            "y": 0.701
+          },
+          {
+            "x": 0.46,
+            "y": 0.701
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/1_1.svg",
+        "points": [
+          {
+            "x": 0.0,
+            "y": 0.727
+          },
+          {
+            "x": 0.354,
+            "y": 0.727
+          },
+          {
+            "x": 0.354,
+            "y": 0.985
+          },
+          {
+            "x": 0.0,
+            "y": 0.985
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/1_2.svg",
+        "points": [
+          {
+            "x": 0.314,
+            "y": 0.727
+          },
+          {
+            "x": 0.685,
+            "y": 0.727
+          },
+          {
+            "x": 0.685,
+            "y": 0.985
+          },
+          {
+            "x": 0.314,
+            "y": 0.985
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/1_3.svg",
+        "points": [
+          {
+            "x": 0.645,
+            "y": 0.727
+          },
+          {
+            "x": 1.0,
+            "y": 0.727
+          },
+          {
+            "x": 1.0,
+            "y": 0.985
+          },
+          {
+            "x": 0.645,
+            "y": 0.985
+          }
+        ]
+      }
+    ],
+    "id": "M-8-3",
+    "isReverserTouchEvent": true
+  },
+  {
+    "type": "MaskLayout.Info",
+    "areaInfo": [
+      {
+        "maskPath": "eight/2_1.svg",
+        "points": [
+          {
+            "x": 0.039,
+            "y": 0.011
+          },
+          {
+            "x": 0.354,
+            "y": 0.011
+          },
+          {
+            "x": 0.354,
+            "y": 0.351
+          },
+          {
+            "x": 0.039,
+            "y": 0.351
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/2_2.svg",
+        "points": [
+          {
+            "x": 0.367,
+            "y": 0.012
+          },
+          {
+            "x": 0.662,
+            "y": 0.012
+          },
+          {
+            "x": 0.662,
+            "y": 0.339
+          },
+          {
+            "x": 0.367,
+            "y": 0.339
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/2_3.svg",
+        "points": [
+          {
+            "x": 0.681,
+            "y": 0.018
+          },
+          {
+            "x": 0.974,
+            "y": 0.018
+          },
+          {
+            "x": 0.974,
+            "y": 0.33
+          },
+          {
+            "x": 0.681,
+            "y": 0.33
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/2_6.svg",
+        "points": [
+          {
+            "x": 0.02,
+            "y": 0.691
+          },
+          {
+            "x": 0.344,
+            "y": 0.691
+          },
+          {
+            "x": 0.344,
+            "y": 0.983
+          },
+          {
+            "x": 0.02,
+            "y": 0.983
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/2_7.svg",
+        "points": [
+          {
+            "x": 0.345,
+            "y": 0.648
+          },
+          {
+            "x": 0.636,
+            "y": 0.648
+          },
+          {
+            "x": 0.636,
+            "y": 0.989
+          },
+          {
+            "x": 0.345,
+            "y": 0.989
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/2_8.svg",
+        "points": [
+          {
+            "x": 0.631,
+            "y": 0.633
+          },
+          {
+            "x": 0.979,
+            "y": 0.633
+          },
+          {
+            "x": 0.979,
+            "y": 0.973
+          },
+          {
+            "x": 0.631,
+            "y": 0.973
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/2_4.svg",
+        "points": [
+          {
+            "x": 0.06,
+            "y": 0.201
+          },
+          {
+            "x": 0.513,
+            "y": 0.201
+          },
+          {
+            "x": 0.513,
+            "y": 0.706
+          },
+          {
+            "x": 0.06,
+            "y": 0.706
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/2_5.svg",
+        "points": [
+          {
+            "x": 0.444,
+            "y": 0.206
+          },
+          {
+            "x": 0.944,
+            "y": 0.206
+          },
+          {
+            "x": 0.944,
+            "y": 0.717
+          },
+          {
+            "x": 0.444,
+            "y": 0.717
+          }
+        ]
+      }
+    ],
+    "id": "M-8-4",
+    "isReverserTouchEvent": true
+  },
+  {
+    "type": "MaskLayout.Info",
+    "areaInfo": [
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.02,
+            "y": 0.022
+          },
+          {
+            "x": 0.313,
+            "y": 0.022
+          },
+          {
+            "x": 0.313,
+            "y": 0.271
+          },
+          {
+            "x": 0.02,
+            "y": 0.271
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.353,
+            "y": 0.022
+          },
+          {
+            "x": 0.647,
+            "y": 0.022
+          },
+          {
+            "x": 0.647,
+            "y": 0.271
+          },
+          {
+            "x": 0.353,
+            "y": 0.271
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.686,
+            "y": 0.022
+          },
+          {
+            "x": 0.98,
+            "y": 0.022
+          },
+          {
+            "x": 0.98,
+            "y": 0.271
+          },
+          {
+            "x": 0.686,
+            "y": 0.271
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.009,
+            "y": 0.294
+          },
+          {
+            "x": 0.494,
+            "y": 0.294
+          },
+          {
+            "x": 0.494,
+            "y": 0.705
+          },
+          {
+            "x": 0.009,
+            "y": 0.705
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.506,
+            "y": 0.294
+          },
+          {
+            "x": 0.991,
+            "y": 0.294
+          },
+          {
+            "x": 0.991,
+            "y": 0.705
+          },
+          {
+            "x": 0.506,
+            "y": 0.705
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.02,
+            "y": 0.721
+          },
+          {
+            "x": 0.319,
+            "y": 0.721
+          },
+          {
+            "x": 0.319,
+            "y": 0.97
+          },
+          {
+            "x": 0.02,
+            "y": 0.97
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.353,
+            "y": 0.721
+          },
+          {
+            "x": 0.647,
+            "y": 0.721
+          },
+          {
+            "x": 0.647,
+            "y": 0.97
+          },
+          {
+            "x": 0.353,
+            "y": 0.97
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.686,
+            "y": 0.721
+          },
+          {
+            "x": 0.98,
+            "y": 0.721
+          },
+          {
+            "x": 0.98,
+            "y": 0.97
+          },
+          {
+            "x": 0.686,
+            "y": 0.97
+          }
+        ]
+      }
+    ],
+    "id": "M-8-5",
+    "isReverserTouchEvent": true
+  },
+  {
+    "type": "MaskLayout.Info",
+    "areaInfo": [
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.013,
+            "y": 0.036
+          },
+          {
+            "x": 0.331,
+            "y": 0.036
+          },
+          {
+            "x": 0.331,
+            "y": 0.305
+          },
+          {
+            "x": 0.013,
+            "y": 0.305
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.669,
+            "y": 0.036
+          },
+          {
+            "x": 0.987,
+            "y": 0.036
+          },
+          {
+            "x": 0.987,
+            "y": 0.305
+          },
+          {
+            "x": 0.669,
+            "y": 0.305
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.341,
+            "y": 0.2
+          },
+          {
+            "x": 0.659,
+            "y": 0.2
+          },
+          {
+            "x": 0.659,
+            "y": 0.47
+          },
+          {
+            "x": 0.341,
+            "y": 0.47
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.013,
+            "y": 0.365
+          },
+          {
+            "x": 0.331,
+            "y": 0.365
+          },
+          {
+            "x": 0.331,
+            "y": 0.634
+          },
+          {
+            "x": 0.013,
+            "y": 0.634
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.669,
+            "y": 0.365
+          },
+          {
+            "x": 0.987,
+            "y": 0.365
+          },
+          {
+            "x": 0.987,
+            "y": 0.635
+          },
+          {
+            "x": 0.669,
+            "y": 0.635
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.341,
+            "y": 0.53
+          },
+          {
+            "x": 0.659,
+            "y": 0.53
+          },
+          {
+            "x": 0.659,
+            "y": 0.799
+          },
+          {
+            "x": 0.341,
+            "y": 0.799
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.013,
+            "y": 0.694
+          },
+          {
+            "x": 0.331,
+            "y": 0.694
+          },
+          {
+            "x": 0.331,
+            "y": 0.964
+          },
+          {
+            "x": 0.013,
+            "y": 0.964
+          }
+        ]
+      },
+      {
+        "maskPath": "eight/3_1.svg",
+        "points": [
+          {
+            "x": 0.669,
+            "y": 0.694
+          },
+          {
+            "x": 0.987,
+            "y": 0.694
+          },
+          {
+            "x": 0.987,
+            "y": 0.964
+          },
+          {
+            "x": 0.669,
+            "y": 0.964
+          }
+        ]
+      }
+    ],
+    "id": "M-8-6",
+    "isReverserTouchEvent": true
+  },
+
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualPartLineInfo",
+        "areaPosition": 0,
+        "spanCount": 3,
+        "v": 1
+      }
+    ],
+    "id": "M-8-7",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualPartLineInfo",
+        "areaPosition": 0,
+        "spanCount": 1,
+        "v": 3
+      }
+    ],
+    "id": "M-8-8",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 3,
+        "direction": "HORIZONTAL",
+        "f": 0.8
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 2,
+        "direction": "HORIZONTAL",
+        "f": 0.6
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "f": 0.4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.2
+      }
+    ],
+    "id": "M-8-9",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 3,
+        "direction": "VERTICAL",
+        "f": 0.8
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "f": 0.6
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "f": 0.4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.2
+      }
+    ],
+    "id": "M-8-10",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 3,
+        "direction": "HORIZONTAL",
+        "f": 0.2
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 2,
+        "direction": "HORIZONTAL",
+        "f": 0.4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "f": 0.6
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.8
+      }
+    ],
+    "id": "M-8-11",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 3,
+        "direction": "VERTICAL",
+        "f": 0.2
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "f": 0.4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "f": 0.6
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.8
+      }
+    ],
+    "id": "M-8-12",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "spanCount": 2
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      }
+    ],
+    "id": "M-8-13",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 2,
+        "direction": "HORIZONTAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "spanCount": 2
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 3
+      }
+    ],
+    "id": "M-8-14",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.8
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "spanCount": 5
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "f": 0.5
+      }
+    ],
+    "id": "M-8-15",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "spanCount": 2
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.75
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.33333334
+      }
+    ],
+    "id": "M-8-16",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualPartLineInfo",
+        "areaPosition": 0,
+        "spanCount": 2,
+        "v": 1
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 5,
+        "direction": "VERTICAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 4,
+        "direction": "VERTICAL",
+        "f": 0.5
+      }
+    ],
+    "id": "M-8-17",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.666
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.CrossLineInfo",
+        "areaPosition": 0,
+        "f": 0.5,
+        "f2": 0.5,
+        "f3": 0.0,
+        "f4": 0.0
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 2
+      }
+    ],
+    "id": "M-8-18",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 3,
+        "direction": "VERTICAL",
+        "f": 0.333
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "f": 0.666
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "f": 0.333
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.666
+      }
+    ],
+    "id": "M-8-19",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "f": 0.333
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      }
+    ],
+    "id": "M-8-20",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.666
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.CrossLineInfo",
+        "areaPosition": 2,
+        "f": 0.5,
+        "f2": 0.5,
+        "f3": 0.0,
+        "f4": 0.0
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "spanCount": 3
+      }
+    ],
+    "id": "M-8-21",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.7
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.42
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "spanCount": 2
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      }
+    ],
+    "id": "M-8-22",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.7
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.7
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "spanCount": 2
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "f": 0.85
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "f": 0.6
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "spanCount": 2
+      }
+    ],
+    "id": "M-8-23",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 4
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 3,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      }
+    ],
+    "id": "M-8-24",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.6
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.6
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CrossLineInfo",
+        "areaPosition": 0,
+        "f": 0.5,
+        "f2": 0.5,
+        "f3": 0.0,
+        "f4": 0.0
+      }
+    ],
+    "id": "M-8-25",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 2,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "f": 0.666
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      }
+    ],
+    "id": "M-8-26",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "f": 0.666
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.3333
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 2,
+        "direction": "HORIZONTAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "spanCount": 4
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 2
+      }
+    ],
+    "id": "M-8-27",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "f": 0.333
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "spanCount": 2
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 1,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      },
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 3
+      }
+    ],
+    "id": "M-8-28",
+    "layoutType": "STRAIGHT"
+  },
+  {
+    "type": "QueShotInfo",
+    "areaInfo": [
+      {
+        "type": "LineInfo.CutAreaEqualDirectionPartLineInfo",
+        "areaPosition": 0,
+        "direction": "VERTICAL",
+        "spanCount": 4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 3,
+        "direction": "HORIZONTAL",
+        "f": 0.4
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 2,
+        "direction": "HORIZONTAL",
+        "f": 0.45
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 1,
+        "direction": "HORIZONTAL",
+        "f": 0.5
+      },
+      {
+        "type": "LineInfo.StraightLineInfo",
+        "areaPosition": 0,
+        "direction": "HORIZONTAL",
+        "f": 0.55
+      }
+    ],
+    "id": "M-8-29",
+    "layoutType": "STRAIGHT"
+  }
+]

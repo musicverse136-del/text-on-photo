@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editor_assets_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panel"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <HorizontalScrollView
+        android:id="@+id/asset_tabs_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/asset_tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp" />
+    </HorizontalScrollView>
+
+    <GridView
+        android:id="@+id/editor_asset_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:horizontalSpacing="8dp"
+        android:numColumns="4"
+        android:padding="8dp"
+        android:scrollbars="none"
+        android:verticalSpacing="8dp" />
+</LinearLayout>

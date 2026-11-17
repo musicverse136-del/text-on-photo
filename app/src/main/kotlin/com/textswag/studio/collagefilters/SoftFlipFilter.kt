@@ -1,0 +1,8 @@
+package com.textswag.studio.collagefilters
+
+class SoftFlipFilter :
+    BaseGlitchGPUImageFilter("uniform mat4 uMVPMatrix;attribute vec4 position;\nattribute vec4 inputTextureCoordinate;\n \nvarying vec2 textureCoordinate;\n \nvoid main()\n{\n    gl_Position = uMVPMatrix * position;\n    textureCoordinate = inputTextureCoordinate.xy;\n}", "precision highp float;\nvarying highp vec2 textureCoordinate;\nuniform sampler2D inputImageTexture;\nuniform highp vec2 inputSize;\nuniform highp float iTime;\n\nconst float pi = 3.14159265359;\nconst float lineWidth = 0.16;\n\nfloat distancePtToLine(vec2 pt1, vec2 pt2, vec2 pt0)    {\n    return ((pt2.y-pt1.y)*pt0.x-(pt2.x-pt1.x)*pt0.y+pt2.x*pt1.y-pt2.y*pt1.x)/(sqrt(pow(pt2.y-pt1.y,2.0)+pow(pt2.x-pt1.x,2.0)));\n}\n\nvoid main()    {\n    float       angle = (iTime - 50.0)/50.0;\n    vec2        loc = textureCoordinate;\n    vec4        returnMe = vec4(vec3(0.0), 1.0);\n    vec2        p1 = vec2(0.5, 0.5);\n    vec2        p2 = p1 + vec2(cos(angle*pi), sin(angle*pi));\n    float       val = distancePtToLine(p1,p2,loc);\n    vec2        flipLoc = loc;\n    flipLoc.x = 1.0 - flipLoc.x;\n    flipLoc.y = 1.0 - flipLoc.y;\n\n    if (abs(val) < lineWidth) {\n        vec4    pix1 = texture2D(inputImageTexture, loc);\n        vec4    pix2 = texture2D(inputImageTexture, flipLoc);\n        returnMe = mix(pix1,pix2,((-val+lineWidth)) / (2.0*lineWidth));\n    }\n    else if (val > 0.0)    {\n        returnMe = texture2D(inputImageTexture, loc);\n    }\n    else {\n        returnMe = texture2D(inputImageTexture, flipLoc);\n    }\n    gl_FragColor = returnMe;\n}"), AdjustableFilter {
+    override fun setAmount(amountValue: Float) {
+        setTime(amountValue)
+    }
+}

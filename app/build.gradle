@@ -1,0 +1,38 @@
+plugins {
+    id 'com.android.application' version '8.12.3'
+    id 'org.jetbrains.kotlin.android' version '2.2.10'
+}
+
+android {
+    namespace 'com.textswag.studio'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.textswag.studio'
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.15.0'
+    implementation 'io.github.goooler.gpuimage:gpuimage:2.2.1'
+}
+
+
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
+    }
+}

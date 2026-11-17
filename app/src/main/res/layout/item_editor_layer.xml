@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:layout_marginHorizontal="2dp"
+    android:layout_marginVertical="2dp"
+    android:background="@drawable/item_card_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingHorizontal="10dp">
+
+    <ImageView
+        android:id="@+id/layer_thumbnail"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="#1B1E28"
+        android:clipToOutline="true"
+        android:importantForAccessibility="no"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/layer_label"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/font_default"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingHorizontal="12dp"
+        android:textColor="@color/foreground"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/layer_visibility"
+        style="@style/ToolbarIcon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="4dp"
+        android:padding="9dp"
+        android:src="@drawable/ic_eye_selector" />
+
+    <ImageButton
+        android:id="@+id/layer_lock"
+        style="@style/ToolbarIcon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="4dp"
+        android:padding="9dp"
+        android:src="@drawable/ic_lock_selector" />
+
+    <ImageButton
+        android:id="@+id/layer_drag"
+        style="@style/ToolbarIcon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:contentDescription="@string/reorder_layer"
+        android:padding="9dp"
+        android:src="@drawable/ic_drag" />
+</LinearLayout>

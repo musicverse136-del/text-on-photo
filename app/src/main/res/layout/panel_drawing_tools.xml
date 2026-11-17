@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawing_tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panel"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:padding="12dp"
+    android:visibility="gone">
+
+    <Button
+        android:id="@+id/drawing_edit"
+        style="@style/FeatureButton"
+        android:layout_height="96dp"
+        android:layout_margin="4dp"
+        android:drawableTop="@drawable/ic_edit_text"
+        android:text="@string/edit" />
+
+    <Button
+        android:id="@+id/drawing_opacity"
+        style="@style/FeatureButton"
+        android:layout_height="96dp"
+        android:layout_margin="4dp"
+        android:drawableTop="@drawable/ic_opacity"
+        android:text="Opacity" />
+
+    <Button
+        android:id="@+id/drawing_clone"
+        style="@style/FeatureButton"
+        android:layout_height="96dp"
+        android:layout_margin="4dp"
+        android:drawableTop="@drawable/ic_copy"
+        android:text="Clone" />
+</LinearLayout>

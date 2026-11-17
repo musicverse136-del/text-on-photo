@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Smileys",
+    "icon": "emoji/emoji_smileys/emoji_smileys_0001.png",
+    "relativePath": "emoji/emoji_smileys"
+  },
+  {
+    "name": "Gesture",
+    "icon": "emoji/emoji_gesture/emoji_gesture_0001.png",
+    "relativePath": "emoji/emoji_gesture"
+  },
+  {
+    "name": "Emotion",
+    "icon": "emoji/emoji_emotion/emoji_emotion_0001.png",
+    "relativePath": "emoji/emoji_emotion"
+  },
+  {
+    "name": "Celebration",
+    "icon": "emoji/emoji_celebration/emoji_celebration_0001.png",
+    "relativePath": "emoji/emoji_celebration"
+  },
+  {
+    "name": "Activity",
+    "icon": "emoji/emoji_activity/emoji_activity_0001.png",
+    "relativePath": "emoji/emoji_activity"
+  },
+  {
+    "name": "Animals",
+    "icon": "emoji/emoji_animals/emoji_animals_0001.png",
+    "relativePath": "emoji/emoji_animals"
+  },
+  {
+    "name": "Food",
+    "icon": "emoji/emoji_food/emoji_food_0001.png",
+    "relativePath": "emoji/emoji_food"
+  },
+  {
+    "name": "Nature",
+    "icon": "emoji/emoji_nature/emoji_nature_0001.png",
+    "relativePath": "emoji/emoji_nature"
+  },
+  {
+    "name": "Symbols",
+    "icon": "emoji/emoji_symbols/emoji_symbols_0001.png",
+    "relativePath": "emoji/emoji_symbols"
+  }
+]

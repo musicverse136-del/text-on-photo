@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/normal_text_panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panel"
+    android:paddingHorizontal="10dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="8dp"
+    android:scrollbars="none"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/normal_font"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_textstyle"
+                android:text="Text Style" />
+
+            <Button
+                android:id="@+id/normal_color"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_pick_color"
+                android:text="Text Color" />
+
+            <Button
+                android:id="@+id/normal_shadow"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_shadow"
+                android:text="Shadow" />
+
+            <Button
+                android:id="@+id/normal_neon"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_neon"
+                android:text="Neon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/normal_resize"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_resize_text"
+                android:text="Resize" />
+
+            <Button
+                android:id="@+id/normal_border"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_text_border"
+                android:text="Border" />
+
+            <Button
+                android:id="@+id/normal_format"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_align"
+                android:text="Format" />
+
+            <Button
+                android:id="@+id/normal_opacity"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_opacity"
+                android:text="Opacity" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/normal_gradient"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_color_gradient"
+                android:text="Gradient" />
+
+            <Button
+                android:id="@+id/normal_palette"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_color_palette"
+                android:text="Palette" />
+
+            <Button
+                android:id="@+id/normal_curve"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_curve_text"
+                android:text="Curve" />
+
+            <Button
+                android:id="@+id/normal_text_background"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_text_background"
+                android:text="Background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/normal_position"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_position"
+                android:text="Position" />
+
+            <Button
+                android:id="@+id/normal_word"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_color_word"
+                android:text="Color Word" />
+
+            <Button
+                android:id="@+id/normal_clone"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_copy"
+                android:text="Clone" />
+
+            <Button
+                android:id="@+id/normal_texture"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_texture"
+                android:text="Texture" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

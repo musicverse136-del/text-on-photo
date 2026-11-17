@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 521 442">
+    <path
+        d="
+   M 150,442
+   C 96.610003,442 45.87,430.72 0,410.42
+   L 0,0
+   L 514.21,0
+   C 518.66,22.980005 521,46.720005 521,71.000005
+   C 521,275.9 354.9,442 150,442
+   Z" />
+</svg>
+

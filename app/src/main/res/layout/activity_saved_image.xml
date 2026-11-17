@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface"
+    android:orientation="vertical">
+
+    <!-- Top App Bar -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/panel"
+        android:paddingHorizontal="16dp">
+
+        <Button
+            android:id="@+id/edit_saved"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical|start"
+            android:background="@drawable/home_link_background"
+            android:fontFamily="@font/font_default"
+            android:paddingHorizontal="14dp"
+            android:text="@string/edit"
+            android:textAllCaps="false"
+            android:textColor="@color/foreground"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font_default"
+            android:gravity="center"
+            android:text="@string/save_title"
+            android:textColor="@color/foreground"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/finish_saved"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/badge_pro"
+            android:fontFamily="@font/font_default"
+            android:paddingHorizontal="14dp"
+            android:text="@string/done"
+            android:textAllCaps="false"
+            android:textColor="@color/accent"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- Image Artwork Showcase Card -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/item_card_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/saved_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToOutline="true"
+                android:contentDescription="@string/image_saved"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <!-- Success Badge & Actions -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/panel"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/badge_pro"
+            android:drawableStart="@drawable/ic_checked"
+            android:drawablePadding="6dp"
+            android:drawableTint="@color/success"
+            android:fontFamily="@font/font_default"
+            android:gravity="center"
+            android:paddingHorizontal="14dp"
+            android:text="@string/image_saved"
+            android:textColor="@color/success"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/share_saved"
+            style="@style/HomeButton.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="0dp"
+            android:drawableStart="@drawable/ic_gallery"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/share_image"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

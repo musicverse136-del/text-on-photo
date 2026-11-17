@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface"
+    android:orientation="vertical">
+
+    <!-- Top App Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/panel"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="12dp">
+
+        <ImageButton
+            android:id="@+id/close"
+            style="@style/ToolbarIcon"
+            android:contentDescription="@string/close"
+            android:src="@drawable/ic_back" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/undo"
+            style="@style/ToolbarIcon"
+            android:layout_marginEnd="6dp"
+            android:contentDescription="@string/undo"
+            android:src="@drawable/ic_return_step" />
+
+        <ImageButton
+            android:id="@+id/redo"
+            style="@style/ToolbarIcon"
+            android:contentDescription="@string/redo"
+            android:src="@drawable/ic_next_step" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/drawing_done"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/export_button_background"
+            android:contentDescription="@string/done"
+            android:padding="9dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_checked"
+            android:tint="#0D0E13" />
+    </LinearLayout>
+
+    <!-- Drawing Surface -->
+    <FrameLayout
+        android:id="@+id/drawing_surface"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/surface" />
+
+    <!-- Drawing Controls Sheet -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/panel"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_default"
+                android:text="Brush Size"
+                android:textColor="@color/foreground"
+                android:textSize="13sp" />
+
+            <SeekBar
+                android:id="@+id/brush_size"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/brush_size"
+                android:max="100"
+                android:progress="14"
+                android:progressTint="@color/accent"
+                android:thumbTint="@color/accent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/brush_extras"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/brush_first_label"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_default"
+                android:textColor="@color/foreground"
+                android:textSize="13sp" />
+
+            <SeekBar
+                android:id="@+id/brush_first"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:max="100"
+                android:progressTint="@color/accent"
+                android:thumbTint="@color/accent" />
+
+            <LinearLayout
+                android:id="@+id/brush_dash_space_group"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font_default"
+                    android:text="Space"
+                    android:textColor="@color/foreground"
+                    android:textSize="13sp" />
+
+                <SeekBar
+                    android:id="@+id/brush_dash_space"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="Dash space"
+                    android:max="100"
+                    android:progressTint="@color/accent"
+                    android:thumbTint="@color/accent" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/brush_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/brush_color"
+                android:layout_width="86dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/style_variant_chip"
+                android:fontFamily="@font/font_default"
+                android:gravity="center"
+                android:text="Colors"
+                android:textColor="@color/foreground"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/brush_images"
+                android:layout_width="86dp"
+                android:layout_height="32dp"
+                android:background="@drawable/style_variant_chip"
+                android:fontFamily="@font/font_default"
+                android:gravity="center"
+                android:text="Images"
+                android:textColor="@color/foreground"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/brush_choices_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/brush_choices"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical" />
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/brush_line"
+                style="@style/ToolbarIcon"
+                android:layout_marginHorizontal="8dp"
+                android:contentDescription="@string/brush_line"
+                android:src="@drawable/ic_brush_line" />
+
+            <ImageButton
+                android:id="@+id/brush_dash"
+                style="@style/ToolbarIcon"
+                android:layout_marginHorizontal="8dp"
+                android:contentDescription="@string/brush_dash"
+                android:src="@drawable/ic_brush_dash" />
+
+            <ImageButton
+                android:id="@+id/brush_neon"
+                style="@style/ToolbarIcon"
+                android:layout_marginHorizontal="8dp"
+                android:contentDescription="@string/brush_neon"
+                android:src="@drawable/ic_brush_neon" />
+
+            <ImageButton
+                android:id="@+id/brush_erase"
+                style="@style/ToolbarIcon"
+                android:layout_marginHorizontal="8dp"
+                android:contentDescription="@string/brush_erase"
+                android:src="@drawable/ic_erase" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

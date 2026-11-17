@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface"
+    android:orientation="vertical">
+
+    <!-- Top Studio Toolbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/panel"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp">
+
+        <ImageButton
+            android:id="@+id/close"
+            style="@style/ToolbarIcon"
+            android:contentDescription="@string/close"
+            android:src="@drawable/ic_back" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <!-- History Controls -->
+        <ImageButton
+            android:id="@+id/undo"
+            style="@style/ToolbarIcon"
+            android:layout_marginEnd="6dp"
+            android:contentDescription="@string/undo"
+            android:src="@drawable/ic_return_step"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/redo"
+            style="@style/ToolbarIcon"
+            android:layout_marginEnd="6dp"
+            android:contentDescription="@string/redo"
+            android:src="@drawable/ic_next_step"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/edit_selected"
+            style="@style/ToolbarIcon"
+            android:contentDescription="@string/edit"
+            android:src="@drawable/ic_edit_text" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <!-- Export Action Button -->
+        <ImageButton
+            android:id="@+id/export"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/export_button_background"
+            android:contentDescription="@string/done"
+            android:padding="9dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_checked"
+            android:tint="#0D0E13" />
+    </LinearLayout>
+
+    <!-- Studio Canvas Backdrop -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/surface"
+        android:padding="8dp">
+
+        <com.textswag.studio.EditorCanvas
+            android:id="@+id/canvas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/canvas" />
+    </FrameLayout>
+
+    <!-- Studio Dock Tab Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/panel"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="4dp">
+
+        <ImageButton
+            android:id="@+id/curve_back"
+            android:layout_width="38dp"
+            android:layout_height="34dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/curve_reset_background"
+            android:contentDescription="@string/close"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/curve_back_arrow"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/feature_tab"
+            style="@style/EditorTab"
+            android:layout_marginEnd="4dp"
+            android:text="@string/feature" />
+
+        <Button
+            android:id="@+id/layers"
+            style="@style/EditorTab"
+            android:layout_marginStart="4dp"
+            android:text="@string/layers" />
+    </LinearLayout>
+
+    <!-- Bottom Tool Panels Container -->
+    <FrameLayout
+        android:id="@+id/editor_controls"
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:background="@color/panel">
+
+        <!-- 8-Tool Feature Grid (2 balanced rows of 4) -->
+        <ScrollView
+            android:id="@+id/feature_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="8dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <Button
+                        android:id="@+id/text_style"
+                        style="@style/FeatureButton"
+                        android:layout_margin="3dp"
+                        android:drawableTop="@drawable/ic_textstyle"
+                        android:text="@string/text_style" />
+
+                    <Button
+                        android:id="@+id/add_text"
+                        style="@style/FeatureButton"
+                        android:layout_margin="3dp"
+                        android:drawableTop="@drawable/ic_edit_text"
+                        android:text="@string/add_text" />
+
+                    <Button
+                        android:id="@+id/background"
+                        style="@style/FeatureButton"
+                        android:layout_margin="3dp"
+                        android:drawableTop="@drawable/ic_background"
+                        android:text="@string/background" />
+
+                    <Button
+                        android:id="@+id/add_photo"
+                        style="@style/FeatureButton"
+                        android:layout_margin="3dp"
+                        android:drawableTop="@drawable/ic_gallery"
+                        android:text="@string/add_photo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <Button
+                        android:id="@+id/decorators"
+                        style="@style/FeatureButton"
+                        android:layout_margin="3dp"
+                        android:drawableTop="@drawable/ic_ai_spark"
+                        android:text="@string/decorators" />
+
+                    <Button
+                        android:id="@+id/stickers"
+                        style="@style/FeatureButton"
+                        android:layout_margin="3dp"
+                        android:drawableTop="@drawable/ic_sticker"
+                        android:text="@string/stickers" />
+
+                    <Button
+                        android:id="@+id/emoji"
+                        style="@style/FeatureButton"
+                        android:layout_margin="3dp"
+                        android:drawableTop="@drawable/ic_emoji"
+                        android:text="@string/emoji" />
+
+                    <Button
+                        android:id="@+id/hand_draw"
+                        style="@style/FeatureButton"
+                        android:layout_margin="3dp"
+                        android:drawableTop="@drawable/ic_hand_draw"
+                        android:text="@string/hand_draw" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Layer Management Panel -->
+        <LinearLayout
+            android:id="@+id/layer_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="12dp"
+            android:paddingTop="6dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/font_default"
+                    android:text="Layer Stack"
+                    android:textColor="@color/foreground_secondary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/auto_select"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/auto_select"
+                    android:textColor="@color/foreground"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/layer_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:divider="@null"
+                android:dividerHeight="4dp"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <include android:id="@id/style_panel" layout="@layout/panel_text_style" />
+        <include android:id="@id/background_tools" layout="@layout/panel_background_tools" />
+        <include android:id="@id/normal_text_panel" layout="@layout/panel_normal_text" />
+        <include android:id="@id/decorator_categories" layout="@layout/panel_decorator_categories" />
+        <include android:id="@id/editor_assets_panel" layout="@layout/panel_editor_assets" />
+        <include android:id="@id/drawing_tools" layout="@layout/panel_drawing_tools" />
+        <include android:id="@id/curve_panel" layout="@layout/panel_curve_text" />
+        <include android:id="@id/normal_detail_panel" layout="@layout/panel_normal_details" />
+
+        <ListView
+            android:id="@+id/emoji_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:visibility="gone" />
+    </FrameLayout>
+</LinearLayout>

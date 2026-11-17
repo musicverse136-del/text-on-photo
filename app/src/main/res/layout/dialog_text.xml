@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/panel"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="16dp">
+
+    <EditText
+        android:id="@+id/text_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_outline"
+        android:fontFamily="@font/font_default"
+        android:hint="@string/text_hint"
+        android:inputType="textMultiLine|textCapSentences"
+        android:maxLength="280"
+        android:maxLines="4"
+        android:padding="12dp"
+        android:textColor="@color/foreground"
+        android:textColorHint="@color/foreground_muted"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/font"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/home_link_background"
+        android:contentDescription="@string/font"
+        android:paddingHorizontal="10dp" />
+
+    <Spinner
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/home_link_background"
+        android:contentDescription="@string/color"
+        android:paddingHorizontal="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_default"
+            android:text="@string/size"
+            android:textColor="@color/foreground"
+            android:textSize="13sp" />
+
+        <SeekBar
+            android:id="@+id/size"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/size"
+            android:max="162"
+            android:progressTint="@color/accent"
+            android:thumbTint="@color/accent" />
+    </LinearLayout>
+</LinearLayout>

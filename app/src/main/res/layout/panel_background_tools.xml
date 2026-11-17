@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background_tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panel"
+    android:paddingHorizontal="10dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="8dp"
+    android:scrollbars="none"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/bg_replace"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_replace"
+                android:text="Replace" />
+
+            <Button
+                android:id="@+id/bg_overlay"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_overlay"
+                android:text="Overlay" />
+
+            <Button
+                android:id="@+id/bg_adjust"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_adjust"
+                android:text="Adjust" />
+
+            <Button
+                android:id="@+id/bg_crop"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_crop"
+                android:text="Crop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/bg_rotate"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_rotate"
+                android:text="Rotate" />
+
+            <Button
+                android:id="@+id/bg_bw"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_contrast"
+                android:text="B &amp; W" />
+
+            <Button
+                android:id="@+id/bg_flip_h"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_flip_h"
+                android:text="Flip H" />
+
+            <Button
+                android:id="@+id/bg_flip_v"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_flip_v"
+                android:text="Flip V" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/bg_fit"
+                style="@style/FeatureButton"
+                android:layout_margin="3dp"
+                android:drawableTop="@drawable/ic_fit_background"
+                android:text="Fit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

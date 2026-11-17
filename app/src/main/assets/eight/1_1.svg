@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    xml:space="preserve"
+    style="enable-background:new 0 0 354.15 258;"
+    viewBox="0 0 354.15 258"
+    y="0px"
+    x="0px"
+    id="图层_1"
+    version="1.1"><defs
+   id="defs828" />
+    <path
+        id="path823"
+        d="
+        M 268.71,258
+        L 0,258
+        L 0,184.04
+        L 55.46,10.52
+        C 57.49,4.18 62.49,0 68.07,0
+        L 340.61,0
+        C 348.4,0 354.2,7.82 354.16,16.6
+        C 354.15,18.56 353.85,20.56 353.22,22.53
+        L 281.32,247.48 C 279.29,253.82 274.29,258 268.71,258
+        Z" />
+</svg>
+
