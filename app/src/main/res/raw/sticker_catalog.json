@@ -1,9 +1,9 @@
 [
     {
-        "id": "birthday",
+        "id": "birthday_2",
         "name": "Birthday",
-        "path": "stickers/birthday/",
-        "unlock_type": "premium",
+        "path": "stickers/birthday_2/",
+        "unlock_type": "free",
         "data": [
             "sticker_1.png",
             "sticker_2.png",
@@ -24,7 +24,10 @@
             "sticker_17.png",
             "sticker_18.png",
             "sticker_19.png",
-            "sticker_20.png"
+            "sticker_20.png",
+            "sticker_21.png",
+            "sticker_22.png",
+            "sticker_23.png"
         ]
     },
     {
@@ -137,37 +140,6 @@
             "sticker_78.png",
             "sticker_79.png",
             "sticker_80.png"
-        ]
-    },
-    {
-        "id": "birthday_2",
-        "name": "Birthday 2",
-        "path": "stickers/birthday_2/",
-        "unlock_type": "free",
-        "data": [
-            "sticker_1.png",
-            "sticker_2.png",
-            "sticker_3.png",
-            "sticker_4.png",
-            "sticker_5.png",
-            "sticker_6.png",
-            "sticker_7.png",
-            "sticker_8.png",
-            "sticker_9.png",
-            "sticker_10.png",
-            "sticker_11.png",
-            "sticker_12.png",
-            "sticker_13.png",
-            "sticker_14.png",
-            "sticker_15.png",
-            "sticker_16.png",
-            "sticker_17.png",
-            "sticker_18.png",
-            "sticker_19.png",
-            "sticker_20.png",
-            "sticker_21.png",
-            "sticker_22.png",
-            "sticker_23.png"
         ]
     },
     {

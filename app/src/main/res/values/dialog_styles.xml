@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StudioDialog" parent="android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/studio_dialog_surface</item>
+        <item name="android:windowMinWidthMinor">92%</item>
+        <item name="android:backgroundDimAmount">0.68</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorBackgroundFloating">@color/surface_card</item>
+        <item name="android:colorControlHighlight">#25FFD09B</item>
+        <item name="android:textColorPrimary">@color/foreground</item>
+        <item name="android:textColorSecondary">@color/foreground_secondary</item>
+        <item name="android:textColorAlertDialogListItem">@color/foreground</item>
+        <item name="android:windowTitleStyle">@style/StudioDialogTitle</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/StudioDialogAction.Primary</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/StudioDialogAction</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/StudioDialogAction</item>
+    </style>
+
+    <style name="StudioDialog.Destructive">
+        <item name="android:colorAccent">@color/danger</item>
+    </style>
+
+    <style name="StudioDialogTitle">
+        <item name="android:textColor">@color/foreground</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="StudioDialogAction" parent="android:style/Widget.Material.Button.Borderless">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">72dp</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/foreground_secondary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="StudioDialogAction.Primary">
+        <item name="android:background">@drawable/studio_dialog_primary</item>
+        <item name="android:textColor">@color/surface</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

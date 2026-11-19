@@ -20,7 +20,7 @@
             android:contentDescription="@string/close"
             android:src="@drawable/ic_back" />
 
-        <TextView
+        <TextView android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -32,28 +32,69 @@
             android:textStyle="bold" />
     </FrameLayout>
 
-    <!-- Content Sections -->
+    <LinearLayout
+        android:id="@+id/colors_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="8dp"
+            android:text="@string/background_colors"
+            android:textColor="@color/foreground"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingHorizontal="14dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/color_tiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gallery_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/foreground"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <ScrollView
+        <GridView
+            android:id="@+id/gallery"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
-            android:paddingBottom="72dp"
-            android:scrollbars="none">
+            android:gravity="center"
+            android:horizontalSpacing="8dp"
+            android:numColumns="auto_fit"
+            android:paddingHorizontal="14dp"
+            android:paddingBottom="12dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="8dp" />
 
-            <LinearLayout
-                android:id="@+id/background_sections"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingTop="8dp" />
-        </ScrollView>
-
-        <!-- Floating Next Action -->
+                <!-- Floating Next Action -->
         <Button
             android:id="@+id/next"
             style="@style/HomeButton.Primary"

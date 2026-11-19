@@ -34,6 +34,7 @@
             android:fontFamily="@font/font_default"
             android:gravity="center"
             android:text="@string/save_title"
+            android:id="@+id/saved_heading"
             android:textColor="@color/foreground"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -79,44 +80,17 @@
         </LinearLayout>
     </FrameLayout>
 
-    <!-- Success Badge & Actions -->
-    <LinearLayout
+    <TextView
+        android:id="@+id/saved_status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/panel"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
+        android:fontFamily="@font/font_default"
+        android:gravity="center"
         android:paddingHorizontal="24dp"
-        android:paddingTop="16dp"
-        android:paddingBottom="24dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
-            android:background="@drawable/badge_pro"
-            android:drawableStart="@drawable/ic_checked"
-            android:drawablePadding="6dp"
-            android:drawableTint="@color/success"
-            android:fontFamily="@font/font_default"
-            android:gravity="center"
-            android:paddingHorizontal="14dp"
-            android:text="@string/image_saved"
-            android:textColor="@color/success"
-            android:textSize="13sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/share_saved"
-            style="@style/HomeButton.Primary"
-            android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="0dp"
-            android:drawableStart="@drawable/ic_gallery"
-            android:drawablePadding="10dp"
-            android:gravity="center"
-            android:text="@string/share_image"
-            android:textAllCaps="false"
-            android:textSize="15sp" />
-    </LinearLayout>
+        android:paddingVertical="18dp"
+        android:text="@string/image_saved"
+        android:textColor="@color/success"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 </LinearLayout>

@@ -3,10 +3,7 @@
     android:color="#4DFFFFFF">
     <item>
         <shape android:shape="rectangle">
-            <gradient
-                android:angle="45"
-                android:endColor="#7C3AED"
-                android:startColor="#00E5BE" />
+            <solid android:color="@color/accent" />
             <corners android:radius="@dimen/home_button_corner_radius" />
         </shape>
     </item>

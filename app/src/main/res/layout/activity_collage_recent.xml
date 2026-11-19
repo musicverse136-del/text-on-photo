@@ -17,16 +17,16 @@
             android:id="@+id/recent_back"
             style="@style/ToolbarIcon"
             android:layout_gravity="center_vertical|start"
-            android:contentDescription="Back"
+            android:contentDescription="@string/close"
             android:src="@drawable/ic_back" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:fontFamily="@font/font_default"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
-            android:text="Select Photos"
+            android:text="@string/studio_select_photos"
             android:textColor="@color/foreground"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -46,10 +46,12 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/surface"
-        android:horizontalSpacing="4dp"
-        android:numColumns="4"
-        android:padding="4dp"
-        android:verticalSpacing="4dp" />
+        android:columnWidth="80dp"
+        android:horizontalSpacing="8dp"
+        android:numColumns="auto_fit"
+        android:padding="12dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="8dp" />
 
     <!-- Action Bar & Counter -->
     <LinearLayout

@@ -56,16 +56,14 @@
             android:layout_weight="1" />
 
         <!-- Export Action Button -->
-        <ImageButton
+        <Button
             android:id="@+id/export"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            style="@style/StudioUtility"
             android:background="@drawable/export_button_background"
-            android:contentDescription="@string/done"
-            android:padding="9dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_checked"
-            android:tint="#0D0E13" />
+            android:contentDescription="@string/export"
+            android:paddingHorizontal="14dp"
+            android:text="@string/studio_export_action"
+            android:textColor="@color/surface" />
     </LinearLayout>
 
     <!-- Studio Canvas Backdrop -->
@@ -73,10 +71,10 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/surface"
-        android:padding="8dp">
+        android:background="@drawable/editor_workspace"
+        android:padding="12dp">
 
-        <com.textswag.studio.EditorCanvas
+        <app.typeandframe.studio.EditorCanvas
             android:id="@+id/canvas"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -86,7 +84,7 @@
     <!-- Studio Dock Tab Bar -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="46dp"
+        android:layout_height="56dp"
         android:background="@color/panel"
         android:baselineAligned="false"
         android:gravity="center_vertical"

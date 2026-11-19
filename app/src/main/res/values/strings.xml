@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Text Swag Studio</string>
+    <string name="app_name">Type &amp; Frame</string>
     <string name="create">Create</string>
+    <string name="create_canvas">Create Canvas</string>
     <string name="photo">Gallery</string>
     <string name="editor">Editor</string>
     <string name="close">Back</string>
@@ -8,13 +9,13 @@
     <string name="background">Background</string>
     <string name="add_text">Normal Text</string>
     <string name="stickers">Sticker</string>
-    <string name="layers">Layer</string>
+    <string name="layers">Layers</string>
     <string name="canvas">Design canvas</string>
     <string name="text_hint">Enter your text</string>
     <string name="font">Font</string>
     <string name="color">Text color</string>
     <string name="size">Text size</string>
-    <string name="logo_description">Text Swag</string>
+    <string name="logo_description">Type &amp; Frame</string>
     <string name="home_tagline">AI-powered design studio</string>
     <string name="ai_studio">AI Studio</string>
     <string name="collage">Collage</string>
@@ -23,9 +24,9 @@
     <string name="tutorials">New Tutorials</string>
     <string name="edit">Edit</string>
     <string name="done">Done</string>
-    <string name="feature">Feature</string>
+    <string name="feature">Tools</string>
     <string name="text_style">Text Style</string>
-    <string name="add_photo">Add Photo</string>
+    <string name="add_photo">Images</string>
     <string name="decorators">Decorators</string>
     <string name="choose_background">Choose Background</string>
     <string name="next">Next</string>
@@ -50,9 +51,8 @@
     <string name="brush_dash">Dash brush</string>
     <string name="brush_neon">Neon brush</string>
     <string name="brush_erase">Eraser</string>
-    <string name="save_title">Save</string>
-    <string name="image_saved">Image saved successfully</string>
-    <string name="share_image">Share</string>
+    <string name="save_title">Export saved</string>
+    <string name="image_saved">Image saved</string>
     <string name="hide_layer">Hide layer</string>
     <string name="show_layer">Show layer</string>
     <string name="lock_layer">Lock layer</string>
@@ -61,4 +61,26 @@
     <string name="curve">Curve</string>
     <string name="reset_curve">Reset curve</string>
     <string name="curve_notice">NOTICE: Color palette &amp; color word function will be disabled when curve mode is enabled</string>
+    <string name="studio_help">Help</string>
+    <string name="studio_cover_title">Make it\nyour own.</string>
+    <string name="studio_new_design">New design</string>
+    <string name="studio_start_with">Start with</string>
+    <string name="studio_photo">Photo</string>
+    <string name="studio_blank">Blank canvas</string>
+    <string name="studio_library">Your work</string>
+    <string name="studio_exports">Saved exports</string>
+    <string name="studio_no_exports">Your exported images will appear here.</string>
+    <string name="studio_exports_error">Could not load saved exports.</string>
+    <string name="studio_export_preview">Saved export</string>
+    <string name="studio_help_body">Start with a background, photo, or blank canvas. Use Tools to add text, stickers, and drawings. Drag layers to move them and double-tap text to edit it. Tap Export to save your design.</string>
+    <string name="studio_export_action">Export</string>
+    <string name="studio_collage_continue">Continue editing this collage in Type &amp; Frame?</string>
+    <string name="studio_use_drawing">Apply</string>
+    <string name="studio_select_photos">Select photos</string>
+    <string name="background_colors">Colors</string>
+    <string name="background_custom_color">Custom color</string>
+    <string name="background_transparent">Transparent background</string>
+    <string name="background_categories_count">Background categories · %1$d</string>
+    <string name="background_images_count">%1$d images</string>
+    <string name="background_image_description">%1$s image %2$d</string>
 </resources>

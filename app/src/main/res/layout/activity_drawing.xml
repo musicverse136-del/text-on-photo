@@ -43,16 +43,12 @@
             android:layout_height="1dp"
             android:layout_weight="1" />
 
-        <ImageButton
+        <Button
             android:id="@+id/drawing_done"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            style="@style/StudioUtility"
             android:background="@drawable/export_button_background"
-            android:contentDescription="@string/done"
-            android:padding="9dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_checked"
-            android:tint="#0D0E13" />
+            android:text="@string/studio_use_drawing"
+            android:textColor="@color/surface" />
     </LinearLayout>
 
     <!-- Drawing Surface -->
@@ -61,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/surface" />
+        android:background="@drawable/editor_workspace" />
 
     <!-- Drawing Controls Sheet -->
     <LinearLayout

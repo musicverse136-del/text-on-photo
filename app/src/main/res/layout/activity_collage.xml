@@ -17,31 +17,27 @@
             android:id="@+id/collage_back"
             style="@style/ToolbarIcon"
             android:layout_gravity="center_vertical|start"
-            android:contentDescription="Back"
+            android:contentDescription="@string/close"
             android:src="@drawable/ic_back" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:fontFamily="@font/font_default"
+            android:fontFamily="sans-serif-medium"
             android:gravity="center"
-            android:text="Collage Maker"
+            android:text="@string/collage"
             android:textColor="@color/foreground"
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <ImageButton
+        <Button
             android:id="@+id/collage_done"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            style="@style/StudioUtility"
             android:layout_gravity="center_vertical|end"
             android:background="@drawable/export_button_background"
-            android:contentDescription="Done"
-            android:padding="9dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_checked"
-            android:tint="#0D0E13" />
+            android:text="@string/next"
+            android:textColor="@color/surface" />
     </FrameLayout>
 
     <!-- Canvas Preview Frame -->
@@ -49,10 +45,10 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/surface"
-        android:padding="8dp">
+        android:background="@drawable/editor_workspace"
+        android:padding="12dp">
 
-        <com.textswag.studio.CollageBoard
+        <app.typeandframe.studio.CollageBoard
             android:id="@+id/collage_canvas"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

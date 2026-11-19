@@ -42,7 +42,7 @@
             android:padding="9dp"
             android:scaleType="fitCenter"
             android:src="@drawable/ic_checked"
-            android:tint="#0D0E13" />
+            android:tint="#17131B" />
     </FrameLayout>
 
     <!-- Text Input Box -->
